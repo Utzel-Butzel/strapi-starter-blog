@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "hellos",
+  "info": {
+    "name": "Hello"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "duda": {
+      "type": "string"
+    }
+  }
+}
