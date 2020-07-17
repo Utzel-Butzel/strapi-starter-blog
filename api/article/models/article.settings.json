@@ -42,6 +42,9 @@
       "components": [
         "welt.hallo"
       ]
+    },
+    "subtitle": {
+      "type": "string"
     }
   }
 }
