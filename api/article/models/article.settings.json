@@ -32,19 +32,24 @@
       "model": "category",
       "via": "articles"
     },
-    "Duda": {
-      "type": "component",
-      "repeatable": true,
-      "component": "welt.hallo"
-    },
-    "bam": {
-      "type": "dynamiczone",
-      "components": [
-        "welt.hallo"
-      ]
-    },
     "subtitle": {
       "type": "string"
+    },
+    "detailimage": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "meta": {
+      "type": "component",
+      "repeatable": true,
+      "component": "meta.meta"
     }
   }
 }
