@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_partner_partners",
+  "info": {
+    "name": "Partner",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
