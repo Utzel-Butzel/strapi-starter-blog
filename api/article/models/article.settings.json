@@ -51,7 +51,7 @@
       "repeatable": true,
       "component": "meta.meta"
     },
-    "Partner": {
+    "partner": {
       "type": "component",
       "repeatable": true,
       "component": "partner.partner"
