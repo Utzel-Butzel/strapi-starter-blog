@@ -55,6 +55,9 @@
       "type": "component",
       "repeatable": true,
       "component": "partner.partner"
+    },
+    "slug": {
+      "type": "string"
     }
   }
 }
