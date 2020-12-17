@@ -4,7 +4,7 @@ module.exports = {
     {
       mimeType: "image/jpeg",
       imageFileName: "blog-header-network.jpg",
-      published_at: new Date(),
+      //published_at: new Date(),
       category: 1,
       title: "Thanks for giving this Starter a try!",
       content: `
@@ -29,7 +29,7 @@ We hope that this starter will make you want to discover Strapi in more details.
     {
       mimeType: "image/jpeg",
       imageFileName: "blog-header-balloon.jpg",
-      published_at: new Date(),
+      //published_at: new Date(),
       category: 2,
       title: "Enjoy!",
       content: "Have fun!",

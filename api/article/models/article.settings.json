@@ -24,10 +24,6 @@
       "plugin": "upload",
       "required": true
     },
-    "published_at": {
-      "type": "date",
-      "required": true
-    },
     "category": {
       "model": "category",
       "via": "articles"
@@ -38,11 +34,7 @@
     "detailimage": {
       "model": "file",
       "via": "related",
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos"
-      ],
+      "allowedTypes": ["images", "files", "videos"],
       "plugin": "upload",
       "required": false
     },
