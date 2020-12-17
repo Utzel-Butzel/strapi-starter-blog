@@ -5,9 +5,9 @@
  * to run scheduled jobs.
  *
  * The cron format consists of:
- * [MINUTE] [HOUR] [DAY OF MONTH] [MONTH OF YEAR] [DAY OF WEEK] [YEAR (optional)]
+ * [SECOND (optional)] [MINUTE] [HOUR] [DAY OF MONTH] [MONTH OF YEAR] [DAY OF WEEK]
  *
- * See more details here: https://strapi.io/documentation/3.0.0-beta.x/concepts/configurations.html#cron-tasks
+ * See more details here: https://strapi.io/documentation/v3.x/concepts/configurations.html#cron-tasks
  */
 
 module.exports = {
