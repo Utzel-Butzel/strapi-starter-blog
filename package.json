@@ -14,9 +14,9 @@
   "dependencies": {
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
-    "knex": "^0.20.0",
+    "knex": "^0.21.14",
     "path": "^0.12.7",
-    "pg": "^8.5.1",
+    "pg": "8.5.1",
     "rimraf": "^3.0.1",
     "slugify": "^1.4.6",
     "sqlite3": "latest",
@@ -40,8 +40,8 @@
     "uuid": ""
   },
   "engines": {
-    "node": ">=12.0.0",
-    "npm": ">=6.0.0"
+    "node": ">=15.0.0",
+    "npm": ">=7.0.0"
   },
   "license": "MIT"
 }
