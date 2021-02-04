@@ -59,6 +59,10 @@
     },
     "date": {
       "type": "datetime"
+    },
+    "showOnHomepage": {
+      "type": "boolean",
+      "default": true
     }
   }
 }
