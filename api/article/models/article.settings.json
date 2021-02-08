@@ -63,6 +63,15 @@
     "showOnHomepage": {
       "type": "boolean",
       "default": true
+    },
+    "excerpt": {
+      "type": "text"
+    },
+    "title_seo": {
+      "type": "string"
+    },
+    "search_seo": {
+      "type": "string"
     }
   }
 }
