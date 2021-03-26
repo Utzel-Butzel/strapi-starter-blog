@@ -17,6 +17,7 @@
     "knex": "^0.21.14",
     "path": "^0.12.7",
     "pg": "8.5.1",
+    "pg-connection-string": "^2.4.0",
     "rimraf": "^3.0.1",
     "slugify": "^1.4.6",
     "sqlite3": "latest",
